@@ -1,0 +1,23 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "dependencies": {
+    "jspm": "^0.16.42",
+    "lite-server": "^2.2.2"
+  },
+  "scripts": {
+    "install": "jspm install",
+    "bundle": "jspm bundle scss --inject",
+    "serve": "lite-server"
+  },
+  "jspm": {
+    "dependencies": {
+      "scss": "github:mobilexag/plugin-sass@^0.4.6"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
